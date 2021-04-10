@@ -1,13 +1,24 @@
 import './App.css';
-import Navbar from './navbar/navbar';
-import Area from './Area/area';
+
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import React ,{Fragment}from "react";
+
+import Home from './Home/home'
+import Dashboard from './Dashboard/dashboard';
+
 
 function App() {
-  return (
-    <div className="App">
-        <Navbar />
-        < Area />
-    </div>
+return (
+    <Router>
+    <Fragment>
+      <Route exact path='/' component={Home} />
+      <section >
+        <Switch>
+          <Route exact path="/dashboard" component={Dashboard} />
+        </Switch>
+      </section>
+    </Fragment>
+  </Router>
   );
 }
 

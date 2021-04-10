@@ -1,0 +1,10 @@
+.waste-gen{
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 2px 0px 0px 4px;
+    cursor: pointer;
+    width: 610;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}

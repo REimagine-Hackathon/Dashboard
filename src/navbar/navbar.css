@@ -13,7 +13,7 @@
     padding-top: 1rem;
     width: 15rem;
     height : 100%;
-    min-height: 40rem;
+    min-height: 41rem;
     background:#212121;
     color:white;
     padding-left: 1rem;
@@ -22,7 +22,7 @@
 
 
 .title {
-    padding-top: 1rem;
+    padding-top: 1.3rem;
     padding-bottom: 2rem;
     cursor: pointer;
     font-family: 'Dela Gothic One', cursive;
